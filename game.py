@@ -10,9 +10,9 @@ def displayIntro():
 
 def chooseCave():
     cave = ''
-    while cave != '1' and cave !='2':
+    while cave != '1' and cave != '2':
         print('Which cave will you go to into? (1 or 2)')
-        cave = input()
+        cave = input()  
 
     return cave
 
